@@ -1,0 +1,16 @@
+{
+  "form_url": "https://httpbin.org/forms/post",
+
+  "timeout": 15,
+  "page_load_delay": 1.5,
+  "submit_delay": 2.0,
+  "delay_between_records": 1.0,
+
+  "submit_selector": {
+    "by":    "xpath",
+    "value": "//button[contains(text(),'Submit')]"
+  },
+
+  "_submit_note": "Tries submit input, then submit button, then any button — covers 'Submit order' on httpbin pizza form.",
+  "_form_note":   "Targets https://httpbin.org/forms/post — replace with your actual form URL."
+}

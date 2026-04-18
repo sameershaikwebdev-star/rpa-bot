@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>RPA Bot Report</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #020817; color: #e2e8f0; font-family: 'Inter', sans-serif; padding: 40px; }
+  h1 { font-family: 'Space Mono', monospace; font-size: 28px; color: #38bdf8;
+        border-left: 4px solid #38bdf8; padding-left: 16px; margin-bottom: 8px; }
+  .subtitle { color: #475569; font-size: 13px; margin-bottom: 36px; }
+  .cards { display: flex; gap: 16px; margin-bottom: 40px; flex-wrap: wrap; }
+  .card { flex: 1; min-width: 140px; background: #0f172a; border: 1px solid #1e293b;
+           border-radius: 12px; padding: 20px 24px; }
+  .card-label { font-size: 11px; color: #64748b; text-transform: uppercase;
+                 letter-spacing: 1px; margin-bottom: 8px; }
+  .card-value { font-family: 'Space Mono', monospace; font-size: 36px; font-weight: 700; }
+  .green { color: #22c55e; } .red { color: #ef4444; }
+  .blue  { color: #38bdf8; } .yellow{ color: #facc15; }
+  .table-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid #1e293b; }
+  table  { width: 100%; border-collapse: collapse; background: #0f172a; white-space: nowrap; }
+  tr:hover td { background: #1e293b44; }
+  .footer { margin-top: 32px; color: #334155; font-size: 12px; font-family: 'Space Mono', monospace; }
+</style>
+</head>
+<body>
+<h1>⚡ RPA BOT — Execution Report</h1>
+<p class="subtitle">Generated: April 18, 2026 at 12:15:43</p>
+
+<div class="cards">
+  <div class="card">
+    <div class="card-label">Total Records</div>
+    <div class="card-value blue">7</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Successful</div>
+    <div class="card-value green">7</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Failed</div>
+    <div class="card-value red">0</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Success Rate</div>
+    <div class="card-value yellow">100.0%</div>
+  </div>
+</div>
+
+<div class="table-wrap">
+<table>
+  <thead><tr><th style='padding:10px 14px;text-align:left;background:#0f172a;color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:1px'>Status</th><th style='padding:10px 14px;text-align:left;background:#0f172a;color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:1px'>Timestamp</th><th style='padding:10px 14px;text-align:left;background:#0f172a;color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:1px'>Error</th><th style='padding:10px 14px;text-align:left;background:#0f172a;color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:1px'>name</th><th style='padding:10px 14px;text-align:left;background:#0f172a;color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:1px'>id</th><th style='padding:10px 14px;text-align:left;background:#0f172a;color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:1px'>marks</th><th style='padding:10px 14px;text-align:left;background:#0f172a;color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:1px'>percentage</th><th style='padding:10px 14px;text-align:left;background:#0f172a;color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:1px'>grade</th><th style='padding:10px 14px;text-align:left;background:#0f172a;color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:1px'>result</th><th style='padding:10px 14px;text-align:left;background:#0f172a;color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:1px'>size</th><th style='padding:10px 14px;text-align:left;background:#0f172a;color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:1px'>custemail</th><th style='padding:10px 14px;text-align:left;background:#0f172a;color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:1px'>comments</th></tr></thead>
+  <tbody><tr><td style='padding:8px 14px;border-bottom:1px solid #1e293b'><span style="background:#22c55e;color:#fff;padding:2px 10px;border-radius:999px;font-size:11px;font-weight:700">SUCCESS</span></td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>2026-04-18T12:14:48.008893</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'></td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>John</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>101</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>78</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>78</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>B</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>pass</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>medium</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>john@example.com</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>Grade: B | Result: pass | Marks: 78</td></tr>
+<tr><td style='padding:8px 14px;border-bottom:1px solid #1e293b'><span style="background:#22c55e;color:#fff;padding:2px 10px;border-radius:999px;font-size:11px;font-weight:700">SUCCESS</span></td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>2026-04-18T12:14:55.334146</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'></td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>Sam</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>102</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>35</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>35</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>F</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>fail</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>small</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>sam@example.com</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>Grade: F | Result: fail | Marks: 35</td></tr>
+<tr><td style='padding:8px 14px;border-bottom:1px solid #1e293b'><span style="background:#22c55e;color:#fff;padding:2px 10px;border-radius:999px;font-size:11px;font-weight:700">SUCCESS</span></td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>2026-04-18T12:15:03.610183</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'></td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>Alice</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>103</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>92</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>92</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>S</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>pass</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>large</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>alice@example.com</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>Grade: S | Result: pass | Marks: 92</td></tr>
+<tr><td style='padding:8px 14px;border-bottom:1px solid #1e293b'><span style="background:#22c55e;color:#fff;padding:2px 10px;border-radius:999px;font-size:11px;font-weight:700">SUCCESS</span></td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>2026-04-18T12:15:10.154146</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'></td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>Bob</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>104</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>66</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>66</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>C</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>pass</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>medium</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>bob@example.com</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>Grade: C | Result: pass | Marks: 66</td></tr>
+<tr><td style='padding:8px 14px;border-bottom:1px solid #1e293b'><span style="background:#22c55e;color:#fff;padding:2px 10px;border-radius:999px;font-size:11px;font-weight:700">SUCCESS</span></td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>2026-04-18T12:15:17.245565</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'></td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>Carol</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>105</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>49</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>49</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>E</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>pass</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>small</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>carol@example.com</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>Grade: E | Result: pass | Marks: 49</td></tr>
+<tr><td style='padding:8px 14px;border-bottom:1px solid #1e293b'><span style="background:#22c55e;color:#fff;padding:2px 10px;border-radius:999px;font-size:11px;font-weight:700">SUCCESS</span></td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>2026-04-18T12:15:30.372302</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'></td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>David</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>106</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>88</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>88</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>A</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>pass</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>large</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>david@example.com</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>Grade: A | Result: pass | Marks: 88</td></tr>
+<tr><td style='padding:8px 14px;border-bottom:1px solid #1e293b'><span style="background:#22c55e;color:#fff;padding:2px 10px;border-radius:999px;font-size:11px;font-weight:700">SUCCESS</span></td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>2026-04-18T12:15:37.939508</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'></td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>Eva</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>107</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>50</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>50</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>D</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>pass</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>small</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>eva@example.com</td><td style='padding:8px 14px;border-bottom:1px solid #1e293b'>Grade: D | Result: pass | Marks: 50</td></tr>
+</tbody>
+</table>
+</div>
+
+<p class="footer">RPA Bot Engine v1.0 · Python + Selenium + Pandas</p>
+</body>
+</html>
