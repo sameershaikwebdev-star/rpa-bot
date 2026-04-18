@@ -201,7 +201,7 @@ After each run, two reports are generated inside `reports/`:
 
 | Total | Success | Failed | Success Rate |
 |-------|---------|--------|--------------|
-| 5     | 4       | 1      | 80%          |
+| 5     | 5       | 0      | 100%          |
 
 ---
 
